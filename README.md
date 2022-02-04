@@ -15,7 +15,7 @@ Data from all experiments are available as .csv files here:
 
 ## Analysis scripts
 
-Scripts for analyzing data and generating plots are available as .R files here:
+Scripts for analyzing data and generating plots are available as .R and .ipynb files here:
   - Study 1
   - Study 2
 
@@ -27,6 +27,6 @@ Data plots made in ggplot are avaiable as .pdf files here:
 
 ## Task code
 
-Code for conducting the experiments is available as HTML, JavaScript, and CSS files here:
+Code for conducting experiments is available as HTML, JavaScript, and CSS files here:
   - Study 1
   - Study 2
