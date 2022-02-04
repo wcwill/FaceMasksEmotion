@@ -28,5 +28,5 @@ Data plots made in ggplot are avaiable as .pdf files here:
 ## Task code
 
 Code for conducting experiments is available as HTML, JavaScript, and CSS files here:
-  - Study 1
+  - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/task)
   - Study 2
