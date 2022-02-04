@@ -10,7 +10,7 @@ This repository is maintained by W. Craig Williams. Feel free to contact me with
 ## Data
 
 Data from all experiments are available as .csv files here:
-  - Study 1
+  - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/data)
   - Study 2
 
 ## Analysis scripts
