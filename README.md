@@ -29,4 +29,4 @@ PDF data visualizations made in ggplot:
 
 JavaScript, HTML, and CSS code and stimuli for running experiments:
   - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/task)
-  - Study 2
+  - [Study 2](https://github.com/wcwill/FaceMasksEmotion/tree/main/study2/task)
