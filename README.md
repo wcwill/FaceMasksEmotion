@@ -9,24 +9,24 @@ This repository is maintained by W. Craig Williams. Feel free to contact me with
 
 ## Data
 
-Data from all experiments are available as .csv files here:
+CSV data from both experiments:
   - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/data)
   - [Study 2](https://github.com/wcwill/FaceMasksEmotion/tree/main/study2/data)
 
-## Analysis scripts
+## Analysis
 
-Scripts for analyzing data and generating plots are available as .R and .ipynb files here:
+R and Python scripts for analyzing data and generating visualizations:
   - Study 1
   - Study 2
 
-## Plots
+## Visualization
 
-Data plots made in ggplot are avaiable as .pdf files here:
+PDF data visualizations made in ggplot:
   - Study 1
   - Study 2
 
-## Task code
+## Experiment
 
-Code for conducting experiments is available as HTML, JavaScript, and CSS files here:
+JavaScript, HTML, and CSS code and stimuli for running experiments:
   - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/task)
   - Study 2
