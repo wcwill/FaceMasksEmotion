@@ -22,8 +22,8 @@ R and Python scripts for analyzing data and generating visualizations:
 ## Visualization
 
 PDF data visualizations made in ggplot:
-  - Study 1
-  - Study 2
+  - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/plots)
+  - [Study 2](https://github.com/wcwill/FaceMasksEmotion/tree/main/study2/plots)
 
 ## Experiment
 
