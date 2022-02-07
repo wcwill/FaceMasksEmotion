@@ -18,6 +18,7 @@ CSV data from experiments:
 R and Python scripts for analyzing data and generating visualizations:
   - [Study 1](https://github.com/wcwill/FaceMasksEmotion/tree/main/study1/scripts)
   - Study 2
+  - Studies 1 & 2
 
 ## Visualization
 
