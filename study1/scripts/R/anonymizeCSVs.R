@@ -2,6 +2,10 @@
 # imports raw data, drops identifying variables, and outputs anonymized data
 #
 # example usage:
+#
+# library(plyr)
+# library(readr)
+#
 # pathRaw <- '' # set raw data directory
 # pathAnon <- '' # set anonymized data directory
 # dropVarCols <- c(5:7) # list identifying variables to be dropped (by dataframe column numbers)
@@ -11,16 +15,13 @@
 
 anonymize <- function(pathRaw, pathAnon, dropVarCols, outputStemAnon) {
   
-  library(plyr)
-  library(readr)
-  
   # set raw data path
   setwd(pathRaw)
   
   # generate list of datafiles
   myfiles <- list.files(path=pathRaw, pattern="*.csv", full.names=TRUE)
   
-  # update path
+  # set anonymized data path
   setwd(pathAnon)
   
   # specify columns with otherwise incorrect ID/parsing

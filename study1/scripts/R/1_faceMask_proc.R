@@ -3,17 +3,17 @@
 library(plyr)
 library(readr)
 
-# set path
+# set path and load functions
 path <- ""
 setwd(path)
+source('importCSVs.R')
+
+# set path to anonymized data
+pathAnon <- ""
 
 ####---- setup data ----####
-# generate list of datafiles 
-myfiles <- list.files(path=path, pattern="*.csv", full.names=TRUE)
-
-# specify columns with otherwise incorrect ID/parsing and load data (checking 2000 rows to correctly ID/parse most columns)
-colTypes <- cols(rt = col_double())
-d <- ldply(myfiles, read_csv, na="NA", guess_max=2000, col_types = colTypes)
+# import anonymized data
+d <- import(pathAnon)
 
 # identify and remove participants failing attention checks
 attentionCheckFail <- unique(d$subject[d$attentionCheck != 2])
